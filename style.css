@@ -1,0 +1,188 @@
+/* 
+    Created on : 21.11.2015, 13:03:17
+    Author     : Johannes Bepler
+*/
+
+html,body {
+    height: 100%;
+    width:100%;
+    font-weight: 700;
+    position: relative; 
+}
+body,h1,h2,h3,h4,h5,h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.15);
+}
+.intro>h1{
+    position: relative;
+    padding-top: 8%;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 5em;
+}
+.intro>h3{
+    position: relative;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+.banner{
+    background:url("Pic/School.jpg") no-repeat center center; 
+    background-size: cover;
+    text-align:center;
+    padding-top:50px;
+    padding-bottom: 25%;
+}
+#me {
+    background-color: rgb(193,205,193);
+    text-align: left;
+    border-color:rgb(250,235,215);
+}
+#me img{
+    width:50%;
+    height:50%;
+}
+.about{
+    padding-top: 2%;
+    padding-left: 8%;
+    padding-bottom:4%;
+    padding-right:40%;
+}
+.about>p,
+.start>p{
+    font-size:1.6em;
+}
+.about>h2,
+.start>h2{
+    font-size:2.6em;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.2);
+}
+
+#studium {
+    background-color: rgb(176,224,230);
+    text-align: left;
+    border-top: 1px solid;
+    border-color:rgb(186,186,186);
+}
+img{
+    height:100%;
+    width:50%;
+    padding-left:8%;
+    padding-right:8%;
+    padding-top:4%;
+    padding-bottom: 4%;
+}
+.start{
+    padding-top: 2%;
+    padding-left: 40%;
+    padding-bottom:4%;
+    padding-right:8%;
+}
+#ststudium{
+    background-color: rgb(193,205,193);
+    text-align: left;
+    border-top: 1px solid;
+    border-color:rgb(186,186,186);
+}
+.semester2{
+    padding-top: 2%;
+    padding-left: 8%;
+    padding-bottom:4%;
+    padding-right:40%;
+}
+#zkstudium{
+    background-color: rgb(176,224,230);
+    text-align: left;
+    border-top: 1px solid;
+    border-color:rgb(186,186,186);
+}
+#zkstudium img{
+    width:50%;
+    height:50%;
+}
+.future{
+    padding-top: 2%;
+    padding-left: 40%;
+    padding-bottom:4%;
+    padding-right:8%;      
+}
+#kontakt {
+    text-align: left;
+    background-color:rgb(193,205,193);
+    width:100%;
+    float:left;
+    padding-left: 8%;
+    padding-top:1%;
+}
+.network-name {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.button{
+    padding-top:5%;
+    text-align:center;
+    padding-bottom: 2%;
+}
+#wikisearch{
+    padding-top: 4%;
+}
+@media(max-width:767px){
+    .intro>h1{
+        position: relative;
+        padding-top: 8%;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+    .intro>h3{
+        position: relative;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 1.5em;
+    }
+    .about>p,
+    .start>p,
+    .semester2>p,
+    .future>p{
+        font-size:2em;
+    }
+    .about>h2,
+    .start>h2,
+    .semester2>h2,
+    .future>h2{
+        font-size:2.5em;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    }
+    img{
+        height:100%;
+        width:100%; 
+    }
+    .about{
+        padding-top: 2%;
+        padding-left: 8%;
+        padding-bottom:4%;
+        padding-right:8%;
+    }
+
+    .start{
+        padding-top: 2%;
+        padding-left: 8%;
+        padding-bottom:4%;
+        padding-right:8%;
+    }
+    .semester2{
+        padding-top: 2%;
+        padding-left: 8%;
+        padding-bottom:4%;
+        padding-right:8%;
+    }
+    .future{
+        padding-top: 2%;
+        padding-left: 8%;
+        padding-bottom:4%;
+        padding-right:8%;      
+    }
+}
+ 
+
+
+  
