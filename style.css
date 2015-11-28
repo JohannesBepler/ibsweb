@@ -178,6 +178,12 @@ img{
         padding-right:8%;      
     }
 }
+@media(min-width:1420px){
+    img{
+        height:25%;
+        width:25%; 
+    }
+}
  
 
 
