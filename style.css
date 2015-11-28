@@ -124,6 +124,11 @@ img{
     max-width:60%;
     max-width:60%;
 }
+.wiki{
+    padding-left:40%;
+    padding-right:40%;
+}
+
 @media(max-width:767px){
     .intro>h1{
         position: relative;
