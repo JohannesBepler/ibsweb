@@ -38,8 +38,8 @@ body,h1,h2,h3,h4,h5,h6 {
     border-color:rgb(250,235,215);
 }
 #me img{
-    width:80%;
-    height:80%;
+    width:50%;
+    height:50%;
 }
 .about{
     padding-top: 2%;
@@ -96,8 +96,8 @@ img{
     border-color:rgb(186,186,186);
 }
 #zkstudium img{
-    width:80%;
-    height:80%;
+    width:50%;
+    height:50%;
 }
 .future{
     padding-top: 2%;
