@@ -59,11 +59,11 @@ body,h1,h2,h3,h4,h5,h6 {
     border-top: 1px solid;
     border-color:rgb(186,186,186);
 }
-img{
-    padding-left:8%;
-    padding-right:8%;
+.picleft{
     padding-top:4%;
     padding-bottom: 4%;
+padding-left:4%;
+padding-right:4%;
 }
 .start{
     padding-top: 2%;
@@ -117,11 +117,11 @@ img{
 #wikisearch{
     padding-top: 4%;
 }
-.pic{
+img{
     padding-top: 2%;
-    padding-left: 8%;
-    padding-bottom:4%;
-    padding-right:8%;       
+    padding-right:4%;
+    max-width:60%;
+    max-width:60%;
 }
 @media(max-width:767px){
     .intro>h1{
