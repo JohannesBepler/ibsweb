@@ -48,7 +48,8 @@ body,h1,h2,h3,h4,h5,h6 {
     font-size:1.6em;
 }
 .about>h2,
-.start>h2{
+.start>h2
+.banner>label{
     font-size:2.6em;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.2);
 }
@@ -58,12 +59,6 @@ body,h1,h2,h3,h4,h5,h6 {
     text-align: left;
     border-top: 1px solid;
     border-color:rgb(186,186,186);
-}
-.picleft{
-    padding-top:4%;
-    padding-bottom: 4%;
-padding-left:4%;
-padding-right:4%;
 }
 .start{
     padding-top: 2%;
@@ -184,10 +179,10 @@ img{
         padding-right:8%;      
     }
 }
-@media(min-width:1420px){
+@media(min-width:1300px){
     img{
-        height:25%;
-        width:25%; 
+        height:35%;
+        width:35%; 
     }
 }
  
