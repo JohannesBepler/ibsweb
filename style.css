@@ -43,6 +43,9 @@ body,h1,h2,h3,h4,h5,h6 {
     padding-bottom:4%;
     padding-right:40%;
 }
+a{
+    color:#26175F;
+}
 .about>p,
 .start>p{
     font-size:1.6em;
