@@ -100,6 +100,12 @@ a{
     padding-left: 8%;
     padding-top:1%;
 }
+.r{
+    float:right;
+}
+.l{
+    float:left;
+}
 .network-name {
     text-transform: uppercase;
     font-size: 18px;
