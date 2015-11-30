@@ -6,6 +6,8 @@ Author     : Johannes Bepler
 <html lang="de">
     <head>
         <title>Johannes Bepler</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
@@ -27,7 +29,7 @@ Author     : Johannes Bepler
                 <div>
                     <div class="collapse navbar-collapse" id="mynavbar">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#me">&Uumlber mich</a></li>
+                            <li><a href="#me">&Uuml;ber mich</a></li>
                             <li><a href="#studium">Studium</a></li> 
                             <li><a href="#kontakt">Kontakt/Impressum</a></li>
 
@@ -43,27 +45,27 @@ Author     : Johannes Bepler
                         <h1>Der Studiengang</h1> 
                         <h3>Informatik B.Sc.</h3>
 			<div class="wiki">
-			  <h3><form action="http://de.wikipedia.org/wiki/Spezial:Suche" id="wikisearch" role="form">
+			  <form action="http://de.wikipedia.org/wiki/Spezial:Suche" id="wikisearch">
 			    <label for="Wiki" class="sr-only">Wikipedia</label>
                             <input type="text" id="Wiki" class="form-control" placeholder="Wikipedia-Suche" name="search">
-			    <button type="submit" class="btn btn-default name="search" value="Artikel">Artikelsuche</button>
-			    <button type="submit" class="btn btn-default name="fullsearch" value="Volltext">Volltextsuche</button>
+			    <button type="submit" class="btn btn-default" name="search" value="Artikel">Artikelsuche</button>
+			    <button type="submit" class="btn btn-default" name="fulltext" value="Volltext">Volltextsuche</button>
                             </form>
-			  </h3>
+			  
 			</div>
                     </div>
                 </div>
             </div>
         </div>
         <div id="me" >
-            <img src="Pic/Me.jpg" align="right" alt="Me">
+            <img src="Pic/Me.jpg" alt="Me" class="r">
             <div class="about">
                 <h2 class="section-heading">Kurz zu mir</h2>
-                <p class="lead">Ich bin Johannes Bepler, bin 19 Jahre alt und ich studiere an der <a href="https://www.thm.de/site/">Technischen Hochschule Mittelhessen</a>. Ich habe mich schon immer f&uumlr die Technik des Computers interessiert, so habe fr&uumlh angefangen kleine Programme zu programmieren. Aus diesem Grund habe ich vor meinem Sutdium Fachabitur in Wirtschaftsinformatik gemacht. So wurde mir schnell klar, dass ich Informatik studieren m&oumlchte.</p>
+                <p class="lead">Ich bin Johannes Bepler, bin 19 Jahre alt und ich studiere an der <a href="https://www.thm.de/site/">Technischen Hochschule Mittelhessen</a>. Ich habe mich schon immer f&uuml;r die Technik des Computers interessiert, so habe fr&uuml;h angefangen kleine Programme zu programmieren. Aus diesem Grund habe ich vor meinem Sutdium Fachabitur in Wirtschaftsinformatik gemacht. So wurde mir schnell klar, dass ich Informatik studieren m&oumlcht;e.</p>
             </div>
         </div>     
         <div id="studium" >
-            <img src="Pic/Desk.jpg" align="left" alt="Desk" >
+            <img src="Pic/Desk.jpg" class="l" alt="Desk" >
 
             <div class="start">
                 <h2 class="section-heading">Studium</h2>
@@ -71,10 +73,10 @@ Author     : Johannes Bepler
             </div>
         </div>
         <div id="ststudium">
-            <img src="Pic/Keyboard.jpg" align="right" alt="Keyboard" >
+            <img src="Pic/Keyboard.jpg" class="r" alt="Keyboard" >
             <div class="semester2">
                 <h2 class="section-heading">2.Semester</h2>
-                <p class="lead">Im 2. Semester lernt man das <em>Programmieren interaktiver System</em>. In <em>Algortihmen und Datenstruktur</em> lernt man die g&aumlnigsten Algorithmen und Datenstrukturen und diese im Programm umzusetzen. Besonders sind <em>Datenverarbeitende Betriebswirtschaftslehre</em> und <em>Recht f&uumlr Informatiker</em>, da man bei den Kursen lernt, wo &uumlberall die Informatik drinsteckt. <em>Lineare Algebra</em> ist im 2. Semester die Mathematik.</p>
+                <p class="lead">Im 2. Semester lernt man das <em>Programmieren interaktiver System</em>. In <em>Algortihmen und Datenstruktur</em> lernt man die g&auml;nigsten Algorithmen und Datenstrukturen und diese im Programm umzusetzen. Besonders sind <em>Datenverarbeitende Betriebswirtschaftslehre</em> und <em>Recht f&uuml;r Informatiker</em>, da man bei den Kursen lernt, wo &uuml;berall die Informatik drinsteckt. <em>Lineare Algebra</em> ist im 2. Semester die Mathematik.</p>
                 <p class="lead">Die Website war ein Projekt des Kurses <em>Internetbasierte Systeme</em>. Um diese Website zu erstellen haben wir diese Open Source Seiten genutzt.</p> 
                 <div class="button">
                     <ul class="list-inline intro-social-buttons">
@@ -98,11 +100,11 @@ Author     : Johannes Bepler
             </div>
         </div>
         <div id="zkstudium">
-            <img src="Pic/PcWeb.jpg" alt="PcWeb" align="left">
+            <img src="Pic/PcWeb.jpg" alt="PcWeb" class="l">
             <div class="future">
                 <h2 class="section-heading">Zukunft</h2>
-                <p class="lead">Ich m&oumlchte diesen Studiengang weiter studieren. Bis jetzt verlief das Studium ganz gut, und es macht noch mega viel Spa&szlig. Ich hoffe das ich den Schnitt f&uumlr den Studiengang Informatik M.Sc. erreiche.</p>
-                <p class="lead">Ich hoffe, dass ich sp&aumlter diesen Beruf ergreifen kann und dass die <a href"http://thm.de/">Technische Hochschule Mittelhessen</a> mich gut darauf vorbereitet hat. Es soll mir weiterhin so viel Spa&szlig machen.</p>
+                <p class="lead">Ich m&ouml;chte diesen Studiengang weiter studieren. Bis jetzt verlief das Studium ganz gut, und es macht noch mega viel Spa&szlig;. Ich hoffe das ich den Schnitt f&uuml;r den Studiengang Informatik M.Sc. erreiche.</p>
+                <p class="lead">Ich hoffe, dass ich sp&auml;ter diesen Beruf ergreifen kann und dass die <a href="https://www.thm.de/site/">Technische Hochschule Mittelhessen</a> mich gut darauf vorbereitet hat. Es soll mir weiterhin so viel Spa&szlig; machen.</p>
             </div>
         </div>
         <div id="kontakt" >
