@@ -229,19 +229,21 @@ img:nth-child(4){
         padding-right:8%;      
     }
     .session{
-     	padding-top: 2%;
-    	padding-left: 8%;
+     	padding-top: 15%;
+    	padding-left: 0%;
     	padding-bottom:4%;
     }
     .studens{
-    	padding-top: 2%;
-    	padding-left: 8%;
+    	padding-top: 15%;
+    	padding-left: 0%;
     }
      .quest{
-    	padding-left: 8%;
+    	padding-left: 0%;
+    	padding-top: 15%;
     }
      .moment{
-    	padding-left: 8%;
+    	padding-top: 15%;
+    	padding-left: 0%;
     	padding-bottom:40%;
     }
 }
