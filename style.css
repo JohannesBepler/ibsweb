@@ -121,14 +121,14 @@ a{
 }
 .studens{
     padding-top: 2%;
-    padding-left: 20%;
+    padding-left: 60%;
 }
 .quest{
     padding-left: 20%;
 }
 .moment{
-    padding-left: 20%;
-    padding-bottom:12%;
+    padding-left: 60%;
+    padding-bottom:20%;
 }
 .r{
     float:right;
@@ -227,6 +227,22 @@ img:nth-child(4){
         padding-left: 8%;
         padding-bottom:4%;
         padding-right:8%;      
+    }
+    .session{
+     	padding-top: 2%;
+    	padding-left: 8%;
+    	padding-bottom:4%;
+    }
+    .studens{
+    	padding-top: 2%;
+    	padding-left: 8%;
+    }
+     .quest{
+    	padding-left: 8%;
+    }
+     .moment{
+    	padding-left: 8%;
+    	padding-bottom:40%;
     }
 }
 /* for PC */

@@ -12,7 +12,6 @@ if (xmlHttp) {
     xmlHttp.open('GET', 'https://arsnova.eu/api/statistics/', true);
     xmlHttp.onreadystatechange = function () {
         if (xmlHttp.readyState == 4 && xmlHttp.status == 200) {
-			json = null;
           json = JSON.parse(xmlHttp.responseText);
         }
     };
@@ -41,8 +40,8 @@ if (xmlHttp) {
                        2]);
       var options = {
         title: "Sessions",
-        width: screen.width/2,
-        height: screen.height/2,
+        width: screen.height/1.5,
+        height: screen.height/1.5,
         bar: {groupWidth: "95%"},
         legend: { position: "none" },
 	backgroundColor: { fill: "#B6BDB7"},
@@ -69,8 +68,8 @@ if (xmlHttp) {
                        2]);
       var options = {
         title: "Studens",
-        width: screen.width/2,
-        height: screen.height/2,
+        width: screen.height/1.5,
+        height: screen.height/1.5,
         bar: {groupWidth: "95%"},
         legend: { position: "none" },
 	backgroundColor: { fill: "#B6BDB7"},
@@ -98,8 +97,8 @@ if (xmlHttp) {
                        2]);
       var options = {
         title: "Fragen",
-        width: screen.width/2,
-        height: screen.height/2,
+        width: screen.height/1.5,
+        height: screen.height/1.5,
         bar: {groupWidth: "95%"},
         legend: { position: "none" },
 	backgroundColor: { fill: "#B6BDB7"},
@@ -124,9 +123,9 @@ if (xmlHttp) {
                          role: "annotation"},
                        2]);
       var options = {
-        title: "Fragen",
-        width: 600,
-        height: 400,
+        title: "Aktive",
+        width: screen.height/1.5,
+        height: screen.height/1.5,
         bar: {groupWidth: "100%"},
         legend: { position: "bottom" },
 	backgroundColor: { fill: "#B6BDB7"},
