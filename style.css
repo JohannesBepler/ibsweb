@@ -94,11 +94,41 @@ a{
 }
 #kontakt {
     text-align: left;
-    background-color:rgb(193,205,193);
+    background-color:rgb(176,224,230);
     width:100%;
     float:left;
     padding-left: 8%;
     padding-top:1%;
+}
+#arsnovastat{
+    background-color:rgb(193,205,193);
+    text-align: left;
+    border-top: 1px solid;
+    border-color:rgb(186,186,186);
+    
+}
+.stat{
+    padding-top: 2%;
+    padding-left: 8%;
+    padding-bottom:4%;
+    padding-right:40%;
+}
+.session{
+    padding-top: 2%;
+    padding-left: 20%;
+    padding-bottom:4%;
+
+}
+.studens{
+    padding-top: 2%;
+    padding-left: 20%;
+}
+.quest{
+    padding-left: 20%;
+}
+.moment{
+    padding-left: 20%;
+    padding-bottom:12%;
 }
 .r{
     float:right;

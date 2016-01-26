@@ -9,9 +9,9 @@ Author     : Johannes Bepler
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+	<script type="text/javascript" language="javascript" src="js/arsnova.js"></script>
         
     </head>
     <body>
@@ -22,7 +22,8 @@ Author     : Johannes Bepler
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>  
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>    
                     </button>
                     <a class="navbar-brand topnav" href="#">Johannes Bepler</a>
                 </div>
@@ -32,7 +33,7 @@ Author     : Johannes Bepler
                             <li><a href="#me">&Uuml;ber mich</a></li>
                             <li><a href="#studium">Studium</a></li> 
                             <li><a href="#kontakt">Kontakt/Impressum</a></li>
-
+                            <li><a href="#arsnovastat">ArsnovaStatistic</a></li>			    
                         </ul>
                     </div>
                 </div>
@@ -107,14 +108,31 @@ Author     : Johannes Bepler
                 <p class="lead">Ich hoffe, dass ich sp&auml;ter diesen Beruf ergreifen kann und dass die <a href="https://www.thm.de/site/">Technische Hochschule Mittelhessen</a> mich gut darauf vorbereitet hat. Es soll mir weiterhin so viel Spa&szlig; machen.</p>
             </div>
         </div>
+        <div id="arsnovastat">
+            <div class="stat">
+                <h2 class="section-heading">ArsnovaStatistiken</h2>
+	    </div>
+	    <div class="session">
+	        <div id="barchart_session" style="width:800px; height:300px;"> </div>
+     	    </div>
+	    <div class="studens">
+		<div id="barchart" style="width:900px; height:300px;"> </div>
+	    </div>
+	    <div class="quest">
+		<div id="barchartQuest" style="width:900px; height:300px;"> </div>
+	    </div>
+	    <div class="moment">
+		<div id="barchartMoment" style="width:900px; height:300px;"> </div>
+	    </div>
+        </div>
         <div id="kontakt" >
             <div class="w3">
                <a href="http://wave.webaim.org/report#/johannesbep.cloudcontrolled.com">
                <img src="Pic/wcag2AAA-blue.png" class="w3" alt="Level Triple-A conformance, W3C WAI Web Content Accessibility Guidelines 2.0"></a>
             </div>
             <p>Johannes Bepler Heinrich-Heine-Str.11 35447 Reiskirchen Email:<em>johannes.bepler@mni.thm.de</em></p>
-
-
         </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     </body>
 </html>
