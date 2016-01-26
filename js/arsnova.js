@@ -74,7 +74,7 @@ if (xmlHttp) {
         legend: { position: "none" },
 	backgroundColor: { fill: "#B6BDB7"},
       };
-      var chartStudens = new google.visualization.BarChart(document.getElementById("barchart"));
+      var chartStudens = new google.visualization.BarChart(document.getElementById("barchart_studens"));
       chartStudens.draw(viewStudens, options);
 
   }
@@ -110,7 +110,7 @@ if (xmlHttp) {
     google.charts.setOnLoadCallback(drawMoment);
  	function drawMoment() {
 	var moment=google.visualization.arrayToDataTable([
-	["Arsnova", "Fragen", { role: "style" } ],
+	["Arsnova", "Benutzer", { role: "style" } ],
 	['Aktive Benutzer',json.activeUsers,"red"],
 	['Eingeloggte Benutzer',json.loggedinUsers,"blue"]
       ]);
@@ -128,6 +128,7 @@ if (xmlHttp) {
         height: screen.height/1.5,
         bar: {groupWidth: "100%"},
         legend: { position: "bottom" },
+        legend: { position: "none" },
 	backgroundColor: { fill: "#B6BDB7"},
       };
       var chartMoment = new google.visualization.BarChart(document.getElementById("barchartMoment"));
