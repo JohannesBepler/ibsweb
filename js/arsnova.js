@@ -143,6 +143,7 @@ setInterval(function() {
   drawSession();
   drawStudens();
   drawQuest();
+  drawMoment();
 }, 30000); 
 
 
